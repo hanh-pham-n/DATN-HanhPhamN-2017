@@ -22,8 +22,6 @@ class VenueItemTableViewCell: UITableViewCell {
     @IBOutlet private weak var nameLabel: UILabel!
     @IBOutlet private weak var addressLabel: UILabel!
     @IBOutlet private weak var ratingLabel: UILabel!
-    @IBOutlet private weak var categoryLabel: UILabel!
-    @IBOutlet private weak var priceLabel: UILabel!
     @IBOutlet private weak var distanceLabel: UILabel!
     
     // MARK: Lifecycle
@@ -38,9 +36,13 @@ class VenueItemTableViewCell: UITableViewCell {
         contentView.shadow(color: UIColor.gray, offset: CGSize(width: 2, height: 2), opacity: 0.5, radius: 1)
         venueContentView.layer.cornerRadius = radiusOfVenueContentView
         venueContentView.border(color: UIColor.gray, width: 0.5)
-        ratingLabel.backgroundColor = Colors.Green125
-        ratingLabel.layer.cornerRadius = radiusOfRatingLabel
         thumbnailImageView.clipsToBounds = true
+        thumbnailImageView.layer.cornerRadius = 4
+        thumbnailImageView.contentMode = .scaleAspectFill
+        ratingLabel.backgroundColor = Colors.mainColor
+        ratingLabel.textColor = UIColor.white
+        ratingLabel.layer.cornerRadius = 15
+        ratingLabel.clipsToBounds = true
     }
     
     private func descriptionAttributed(string: String) -> NSAttributedString {
@@ -57,8 +59,6 @@ class VenueItemTableViewCell: UITableViewCell {
     func setupData(venue: Venue) {
         nameLabel.text = venue.name
         addressLabel.attributedText = descriptionAttributed(string: venue.address)
-        categoryLabel.text = venue.category
-        priceLabel.text = venue.currency
         if let distance = venue.distance, distance != 0 {
             distanceLabel.text = "\(distance)m from here"
         } else {
@@ -66,11 +66,11 @@ class VenueItemTableViewCell: UITableViewCell {
         }
         if let rating = venue.rating {
             ratingLabel.text = "\(rating)"
-            ratingLabel.backgroundColor = venue.ratingColor
         } else {
+            ratingLabel.backgroundColor = .clear
             ratingLabel.text = ""
-            ratingLabel.backgroundColor = UIColor.white
         }
         thumbnailImageView.sd_setImage(with: venue.thumbnail?.thumbnailPath)
+        thumbnailImageView.contentMode = .scaleAspectFill
     }
 }

@@ -26,7 +26,7 @@ open class TabBarItemContentView: UIView {
         }
     }
     
-    open var highlightTextColor = UIColor(red: 0.0, green: 0.47843137, blue: 1.0, alpha: 1.0) {
+    open var highlightTextColor = Colors.mainColor {
         didSet {
             if selected { titleLabel.textColor = highlightIconColor }
         }
@@ -38,7 +38,7 @@ open class TabBarItemContentView: UIView {
         }
     }
     
-    open var highlightIconColor = UIColor(red: 0.0, green: 0.47843137, blue: 1.0, alpha: 1.0) {
+    open var highlightIconColor = Colors.mainColor {
         didSet {
             if selected { imageView.tintColor = highlightIconColor }
         }

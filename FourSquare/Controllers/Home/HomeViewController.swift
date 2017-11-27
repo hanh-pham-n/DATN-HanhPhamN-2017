@@ -14,9 +14,7 @@ enum SectionQuery: String {
     case TopPicks = "toppicks"
     case Coffee = "coffee"
     case Food = "food"
-    case Shops = "shops"
-    case Trending = "trending"
-    case OutDoors = "outdoors"
+    case NightLife = "nightlife"
 }
 
 class HomeViewController: BaseViewController {
@@ -27,9 +25,7 @@ class HomeViewController: BaseViewController {
     private var topPicksViewController: TopPicksViewController = TopPicksViewController()
     private var coffeeViewController: CoffeeViewController = CoffeeViewController()
     private var foodViewController: FoodViewController = FoodViewController()
-    private var shopsViewController: ShopsViewController = ShopsViewController()
-    private var trendingViewController: TrendingViewController = TrendingViewController()
-    private var outdoorsViewController: OutdoorsViewController = OutdoorsViewController()
+    private var nightLifeViewController: NightLifeViewController = NightLifeViewController()
     private var mapViewController: MapViewController?
     private var isShowMap = false {
         didSet {
@@ -86,10 +82,8 @@ class HomeViewController: BaseViewController {
         topPicksViewController.title = Strings.MenuItemTopPicks
         coffeeViewController.title = Strings.MenuItemCoffee
         foodViewController.title = Strings.MenuItemFood
-        shopsViewController.title = Strings.MenuItemShops
-        trendingViewController.title = Strings.MenuItemsTrendingTitle
-        outdoorsViewController.title = Strings.MenuItemsOutdoorsTitle
-        itemViewControllers = [topPicksViewController, coffeeViewController, foodViewController, shopsViewController, trendingViewController, outdoorsViewController]
+        nightLifeViewController.title = Strings.MenuItemNightLife
+        itemViewControllers = [topPicksViewController, coffeeViewController, foodViewController, nightLifeViewController]
         for viewController in itemViewControllers {
             viewController.delegate = self
         }
@@ -102,9 +96,10 @@ class HomeViewController: BaseViewController {
             .menuHeight(menuHeight),
             .menuItemWidth(menuItemWidth),
             .menuMargin(0),
-            .scrollMenuBackgroundColor(Colors.Gray235),
-            .selectionIndicatorColor(Colors.Orange253),
-            .selectedMenuItemLabelColor(Colors.Orange253)
+            .scrollMenuBackgroundColor(Colors.Caramel255),
+            .selectionIndicatorColor(Colors.mainColor),
+            .selectedMenuItemLabelColor(Colors.mainColor),
+            CAPSPageMenuOption.unselectedMenuItemLabelColor(UIColor.black)
         ]
         pageMenu = CAPSPageMenu(viewControllers: itemViewControllers, frame: view.bounds, pageMenuOptions: parameters)
         if let pageMenu = pageMenu {

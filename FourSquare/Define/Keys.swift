@@ -14,8 +14,8 @@ struct GoogleMapsKeys {
 
 struct APIKeys {
     static let oauthToken = "TSVOEHMYRMQJKDCUAWBQ1A5EY0CHJIXQY3ZJVL2DMQIF4UB1"
-    static let ClientID = "ESKZ0I0VLGKYSV3KMT5FTDBS45E4HFNRYX4QFZJWMDAT3K1K"
-    static let ClientSecret = "OMEDU0AA2GUBQSATQLRIHDSYYGC5JD0IPGU5II4IPDHWAYMO"
+    static let ClientID = "LOOPIY1GIP54XNONKQGN1JWZTL1GKRUW0LRL4E01DBF1VWMH"
+    static let ClientSecret = "IAQD3RKBX5KB0INUJB4LC3SLTH5TZVVT2DCWQ2UMFBZQWBQM"
     static let VersionAPI = "20170503"
     static let Thumbnail = "1"
     static let urlScheme = "loginfoursquare"

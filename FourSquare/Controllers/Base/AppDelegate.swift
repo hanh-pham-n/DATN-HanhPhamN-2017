@@ -31,6 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         setupAPIKey()
         checkLocationService()
         window = UIWindow(frame: UIScreen.main.bounds)
+        UINavigationBar.appearance().barStyle = .blackOpaque
         window?.rootViewController = configTabBar()
         window?.makeKeyAndVisible()
         return true

@@ -18,7 +18,7 @@ protocol MenuItemViewDelegate: NSObjectProtocol {
 class MenuItemViewController: BaseViewController {
     
     // MARK: Define
-    private let rowHeight: CGFloat = 143
+    private let rowHeight: CGFloat = 160
     
     // MARK: Properties
     var venueTableView: UITableView = UITableView()

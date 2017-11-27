@@ -17,8 +17,7 @@ struct Strings {
     static let MenuItemCoffee = "Coffee"
     static let MenuItemFood = "Food"
     static let MenuItemShops = "Shops"
-    static let MenuItemsTrendingTitle = "Trending"
-    static let MenuItemsOutdoorsTitle = "Outdoors"
+    static let MenuItemNightLife = "NightLife"
     
     // Detail
     static let DetailVenueTitleInformation = "Infomation"

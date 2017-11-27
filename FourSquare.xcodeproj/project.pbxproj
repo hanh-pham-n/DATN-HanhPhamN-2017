@@ -17,7 +17,6 @@
 		0410F7761E86115200445E52 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410F7621E86115200445E52 /* Colors.swift */; };
 		0410F7771E86115200445E52 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410F7631E86115200445E52 /* Fonts.swift */; };
 		0410F7781E86115200445E52 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410F7641E86115200445E52 /* Strings.swift */; };
-		0410F7791E86115200445E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0410F76A1E86115200445E52 /* Assets.xcassets */; };
 		0426ABD81EBF66D40082D66D /* VenueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426ABD71EBF66D40082D66D /* VenueService.swift */; };
 		045958F31EBCB87A00C74E0A /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045958F21EBCB87A00C74E0A /* ApiManager.swift */; };
 		045BF8441EBB73C200D55585 /* ImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BF8421EBB73C200D55585 /* ImagesCollectionViewCell.swift */; };
@@ -57,10 +56,8 @@
 		04B792531EC0286C00A8C980 /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B792521EC0286C00A8C980 /* NotificationCenter.swift */; };
 		04C694E61EB89950001701A4 /* CoffeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C694E41EB89950001701A4 /* CoffeeViewController.swift */; };
 		04C694EA1EB89971001701A4 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C694E81EB89971001701A4 /* FoodViewController.swift */; };
-		04C694EE1EB89982001701A4 /* OutdoorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C694EC1EB89982001701A4 /* OutdoorsViewController.swift */; };
-		04C694F21EB899A0001701A4 /* ShopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C694F01EB899A0001701A4 /* ShopsViewController.swift */; };
 		04C694F61EB899B2001701A4 /* TopPicksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C694F41EB899B2001701A4 /* TopPicksViewController.swift */; };
-		04C694FA1EB899D0001701A4 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C694F81EB899D0001701A4 /* TrendingViewController.swift */; };
+		04C694FA1EB899D0001701A4 /* NightLifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C694F81EB899D0001701A4 /* NightLifeViewController.swift */; };
 		04C694FD1EB89A25001701A4 /* MenuItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C694FC1EB89A25001701A4 /* MenuItemViewController.swift */; };
 		04C695061EB89AE0001701A4 /* VenueItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C695041EB89AE0001701A4 /* VenueItemTableViewCell.swift */; };
 		04C695071EB89AE0001701A4 /* VenueItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C695051EB89AE0001701A4 /* VenueItemTableViewCell.xib */; };
@@ -87,6 +84,7 @@
 		04FF3DC81EBB26B100DBE3C4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF3DC61EBB26B100DBE3C4 /* MapViewController.swift */; };
 		04FF3DC91EBB26B100DBE3C4 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FF3DC71EBB26B100DBE3C4 /* MapViewController.xib */; };
 		04FF3DCB1EBB2F0600DBE3C4 /* MyLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF3DCA1EBB2F0600DBE3C4 /* MyLocationManager.swift */; };
+		164A88E71FCBDC5E006CBDD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164A88E61FCBDC5E006CBDD3 /* Assets.xcassets */; };
 		5B5C3BF176092DC0E8AEF2A1 /* Pods_FourSquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC974F96B38E684B46A7485 /* Pods_FourSquare.framework */; };
 /* End PBXBuildFile section */
 
@@ -124,7 +122,6 @@
 		0410F7621E86115200445E52 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		0410F7631E86115200445E52 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		0410F7641E86115200445E52 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
-		0410F76A1E86115200445E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0426ABD71EBF66D40082D66D /* VenueService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueService.swift; sourceTree = "<group>"; };
 		045958F21EBCB87A00C74E0A /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		045BF8421EBB73C200D55585 /* ImagesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -164,10 +161,8 @@
 		04B792521EC0286C00A8C980 /* NotificationCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
 		04C694E41EB89950001701A4 /* CoffeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeeViewController.swift; sourceTree = "<group>"; };
 		04C694E81EB89971001701A4 /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
-		04C694EC1EB89982001701A4 /* OutdoorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutdoorsViewController.swift; sourceTree = "<group>"; };
-		04C694F01EB899A0001701A4 /* ShopsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopsViewController.swift; sourceTree = "<group>"; };
 		04C694F41EB899B2001701A4 /* TopPicksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopPicksViewController.swift; sourceTree = "<group>"; };
-		04C694F81EB899D0001701A4 /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		04C694F81EB899D0001701A4 /* NightLifeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightLifeViewController.swift; sourceTree = "<group>"; };
 		04C694FC1EB89A25001701A4 /* MenuItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemViewController.swift; sourceTree = "<group>"; };
 		04C695041EB89AE0001701A4 /* VenueItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueItemTableViewCell.swift; sourceTree = "<group>"; };
 		04C695051EB89AE0001701A4 /* VenueItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VenueItemTableViewCell.xib; sourceTree = "<group>"; };
@@ -194,6 +189,7 @@
 		04FF3DC61EBB26B100DBE3C4 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		04FF3DC71EBB26B100DBE3C4 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		04FF3DCA1EBB2F0600DBE3C4 /* MyLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLocationManager.swift; sourceTree = "<group>"; };
+		164A88E61FCBDC5E006CBDD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9264D4CCECAFA91822BAD0C /* Pods-FourSquare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourSquare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FourSquare/Pods-FourSquare.debug.xcconfig"; sourceTree = "<group>"; };
 		EDBD6DD2D710F64DFDB5CA37 /* Pods-FourSquare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourSquare.release.xcconfig"; path = "Pods/Target Support Files/Pods-FourSquare/Pods-FourSquare.release.xcconfig"; sourceTree = "<group>"; };
 		EDC974F96B38E684B46A7485 /* Pods_FourSquare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FourSquare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -387,7 +383,7 @@
 		0410F7691E86115200445E52 /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				0410F76A1E86115200445E52 /* Assets.xcassets */,
+				164A88E61FCBDC5E006CBDD3 /* Assets.xcassets */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -533,10 +529,8 @@
 				04C695031EB89AE0001701A4 /* Cell */,
 				04C694DE1EB897B2001701A4 /* Coffee */,
 				04C694DF1EB897B2001701A4 /* Food */,
-				04C694E01EB897B2001701A4 /* Outdoors */,
-				04C694E11EB897B2001701A4 /* Shops */,
 				04C694E21EB897B2001701A4 /* TopPicks */,
-				04C694E31EB897B2001701A4 /* Trending */,
+				04C694E31EB897B2001701A4 /* NightLife */,
 			);
 			path = MenuItem;
 			sourceTree = "<group>";
@@ -557,22 +551,6 @@
 			path = Food;
 			sourceTree = "<group>";
 		};
-		04C694E01EB897B2001701A4 /* Outdoors */ = {
-			isa = PBXGroup;
-			children = (
-				04C694EC1EB89982001701A4 /* OutdoorsViewController.swift */,
-			);
-			path = Outdoors;
-			sourceTree = "<group>";
-		};
-		04C694E11EB897B2001701A4 /* Shops */ = {
-			isa = PBXGroup;
-			children = (
-				04C694F01EB899A0001701A4 /* ShopsViewController.swift */,
-			);
-			path = Shops;
-			sourceTree = "<group>";
-		};
 		04C694E21EB897B2001701A4 /* TopPicks */ = {
 			isa = PBXGroup;
 			children = (
@@ -581,11 +559,12 @@
 			path = TopPicks;
 			sourceTree = "<group>";
 		};
-		04C694E31EB897B2001701A4 /* Trending */ = {
+		04C694E31EB897B2001701A4 /* NightLife */ = {
 			isa = PBXGroup;
 			children = (
-				04C694F81EB899D0001701A4 /* TrendingViewController.swift */,
+				04C694F81EB899D0001701A4 /* NightLifeViewController.swift */,
 			);
+			name = NightLife;
 			path = Trending;
 			sourceTree = "<group>";
 		};
@@ -825,13 +804,13 @@
 				04A8C6781E91F09C0039149B /* FavouriteViewController.xib in Resources */,
 				045BF8591EBC8A9B00D55585 /* MapDirectionViewController.xib in Resources */,
 				04C695121EBA18E2001701A4 /* VenueDetailViewController.xib in Resources */,
-				0410F7791E86115200445E52 /* Assets.xcassets in Resources */,
 				0410F7701E86115200445E52 /* LaunchScreen.storyboard in Resources */,
 				04C695381EBB1177001701A4 /* MapDetailTableViewCell.xib in Resources */,
 				045BF85E1EBC915500D55585 /* NoVenueTableViewCell.xib in Resources */,
 				04A8C6701E91F03A0039149B /* SearchViewController.xib in Resources */,
 				04C695201EBA435B001701A4 /* ImagesCollectionViewHeader.xib in Resources */,
 				04C695341EBAE831001701A4 /* DefaultTableViewCell.xib in Resources */,
+				164A88E71FCBDC5E006CBDD3 /* Assets.xcassets in Resources */,
 				04FF3DC91EBB26B100DBE3C4 /* MapViewController.xib in Resources */,
 				04C6952E1EBADD38001701A4 /* TipsDetailTableViewCell.xib in Resources */,
 				040616481E9101D000B2AE58 /* HomeViewController.xib in Resources */,
@@ -949,7 +928,7 @@
 				04B792531EC0286C00A8C980 /* NotificationCenter.swift in Sources */,
 				04F545121EBDE92100662EC8 /* Tip.swift in Sources */,
 				04C694FD1EB89A25001701A4 /* MenuItemViewController.swift in Sources */,
-				04C694FA1EB899D0001701A4 /* TrendingViewController.swift in Sources */,
+				04C694FA1EB899D0001701A4 /* NightLifeViewController.swift in Sources */,
 				04B6AAC91EAF028000F7505E /* TabBarItemBadgeView.swift in Sources */,
 				04C694E61EB89950001701A4 /* CoffeeViewController.swift in Sources */,
 				04B6AACB1EAF03A400F7505E /* BouncesContentView.swift in Sources */,
@@ -975,7 +954,6 @@
 				04C694EA1EB89971001701A4 /* FoodViewController.swift in Sources */,
 				04C695111EBA18E2001701A4 /* VenueDetailViewController.swift in Sources */,
 				04B6AAC51EAF01F400F7505E /* TabBarItem.swift in Sources */,
-				04C694F21EB899A0001701A4 /* ShopsViewController.swift in Sources */,
 				04A8C67B1E91F0C90039149B /* ProfileViewController.swift in Sources */,
 				045BF8581EBC8A9B00D55585 /* MapDirectionViewController.swift in Sources */,
 				04F5450C1EBDE57300662EC8 /* UIColor.swift in Sources */,
@@ -990,7 +968,6 @@
 				046355D81EC4891A0012901A /* VenueFavourite.swift in Sources */,
 				04C695061EB89AE0001701A4 /* VenueItemTableViewCell.swift in Sources */,
 				04C695331EBAE831001701A4 /* DefaultTableViewCell.swift in Sources */,
-				04C694EE1EB89982001701A4 /* OutdoorsViewController.swift in Sources */,
 				045BF8481EBB804B00D55585 /* SearchListViewController.swift in Sources */,
 				04C6EC811EBCC1060012AD88 /* Session.swift in Sources */,
 				04C6950E1EBA17EE001701A4 /* Keys.swift in Sources */,
@@ -1142,7 +1119,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/FourSquare/Configuration/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = dl.duylinh.FourSquare;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.pnh.datn-hanhphamn-2017";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1158,7 +1135,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/FourSquare/Configuration/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = dl.duylinh.FourSquare;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.pnh.datn-hanhphamn-2017";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;

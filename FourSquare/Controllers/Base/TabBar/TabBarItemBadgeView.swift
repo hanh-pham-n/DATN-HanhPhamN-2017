@@ -10,7 +10,7 @@ import UIKit
 
 open class TabBarItemBadgeView: UIView {
     
-    open static var defaultBadgeColor = UIColor(red: 255.0/255.0, green: 59.0/255.0, blue: 48.0/255.0, alpha: 1.0)
+    open static var defaultBadgeColor = Colors.mainColor
     
     /// Badge color
     open var badgeColor: UIColor? = defaultBadgeColor {

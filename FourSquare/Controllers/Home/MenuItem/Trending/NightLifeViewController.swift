@@ -8,10 +8,10 @@
 
 import UIKit
 
-class TrendingViewController: MenuItemViewController {
+class NightLifeViewController: MenuItemViewController {
     
     override var section: SectionQuery {
-        return .Trending
+        return .NightLife
     }
     
     override func viewDidLoad() {

@@ -28,10 +28,18 @@ class BaseViewController: ViewController {
     // MARK: Public
     func setupUI() {
         guard let navigationController = navigationController else { return }
+//        navigationController.navigationBar.isTranslucent = false
+//        navigationController.navigationBar.barTintColor = Colors.mainColor
+//        navigationController.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : titeTextColor, NSFontAttributeName: font]
+//        navigationController.navigationBar.tintColor = UIColor.white
+
         navigationController.navigationBar.isTranslucent = false
-        navigationController.navigationBar.barTintColor = barTinColor
-        navigationController.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : titeTextColor, NSFontAttributeName: font]
-        navigationController.navigationBar.tintColor = tinColor
+        view.backgroundColor = UIColor.white
+        navigationController.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        navigationController.navigationBar.tintColor = UIColor.white
+        navigationController.navigationBar.barTintColor = Colors.mainColor
+        tabBarController?.tabBar.tintColor = Colors.mainColor
+
         setUpLeftBarButton()
     }
     
