@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MapDirectionViewController" customModule="FourSquare" customModuleProvider="target">
+            <connections>
+                <outlet property="mapView" destination="fGf-xA-gAi" id="KCh-Rm-g3d"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fGf-xA-gAi" customClass="GMSMapView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZB-dy-neK" userLabel="LocationCurrentButton">
+                    <rect key="frame" x="299" y="587" width="60" height="60"/>
+                    <state key="normal" image="ic_location_current"/>
+                    <connections>
+                        <action selector="currentLocationAction:" destination="-1" eventType="touchUpInside" id="GiX-r4-L2f"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fGf-xA-gAi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="B1i-Xj-hnA"/>
+                <constraint firstAttribute="bottom" secondItem="fGf-xA-gAi" secondAttribute="bottom" id="KFz-f8-CWN"/>
+                <constraint firstItem="fGf-xA-gAi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Ow4-PM-Nf3"/>
+                <constraint firstAttribute="trailing" secondItem="fGf-xA-gAi" secondAttribute="trailing" id="kIl-Op-bD9"/>
+                <constraint firstAttribute="bottom" secondItem="lZB-dy-neK" secondAttribute="bottom" constant="20" id="svJ-n0-ixA"/>
+                <constraint firstAttribute="trailing" secondItem="lZB-dy-neK" secondAttribute="trailing" constant="16" id="vk2-nU-Ylo"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_location_current" width="60" height="60"/>
+    </resources>
+</document>
